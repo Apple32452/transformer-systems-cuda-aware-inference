@@ -1,0 +1,13 @@
+seed: 7
+device: auto
+dtype: float32
+vocab_size: 8192
+d_model: 256
+n_heads: 8
+n_layers: 4
+max_position_embeddings: 2048
+warmup_steps: 3
+measure_steps: 8
+batch_sizes: [1, 4, 8]
+context_lengths: [32, 128, 256]
+generation_lengths: [16, 32]
